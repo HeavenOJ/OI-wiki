@@ -1,4 +1,4 @@
-author: hydingsy, Link-cute, Ir1d, greyqz, LuoshuiTianyi, Odeinjul, xyf007, GoodCoder666, paigeman, shenshuaijie
+author: hydingsy, Link-cute, Ir1d, greyqz, LuoshuiTianyi, Odeinjul, xyf007, GoodCoder666, paigeman, shenshuaijie , theHeavenly
 
 前置知识：[动态规划部分简介](./index.md)。
 
@@ -167,7 +167,8 @@ $$
 ??? 二进制分组代码
     === "C++"
         ```cpp
-        index = 0;
+        int list[10005];
+        int index = 0;
         for (int i = 1; i <= m; i++) {
           int c = 1, p, h, k;
           cin >> p >> h >> k;
@@ -185,6 +186,7 @@ $$
     === "Python"
         ```python
         index = 0
+        list = []
         for i in range(1, m + 1):
             c = 1
             p, h, k = map(int, input().split())
